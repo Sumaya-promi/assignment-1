@@ -1,0 +1,161 @@
+
+
+body {
+  background-color: rgb(242, 246, 250);
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* Navbar style*/
+.header-bg{
+    background-image: url('/B12A01-landing-launchpad/Assets/Hero-bg.png');
+    background-position: cover;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0px 150px 158px 150px;
+}
+.title-logo{
+    font-size: 34px;
+    color:#4E47FF;
+}
+.btn-primary{
+    font-size: 25px;
+    font-weight: 600;
+    padding: 10px 18px;
+    border-radius: 5px;
+    border: none;
+    background-color:#4E47FF;
+    color: white;
+   
+}
+
+/* banner style */
+.banner {
+  width: 100%;
+  text-align: center;
+  padding-bottom: 200px;
+}
+
+.banner-container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.banner-title {
+  color: #252432;
+  font-size: 95px;
+  margin-bottom: 60px;
+}
+
+/*section action style*/
+.action{
+  display: flex;
+  justify-content: center;
+   margin: 150px 0px 150px 0px;
+  gap:250px;
+ 
+}
+.action-content{
+  padding:0px 20px 10px 0px;;
+}
+.title-primary{
+  font-size: 40px;
+  margin-bottom: 50px;
+}
+.text-primary{
+    font-size: 27px;
+    font-weight: bold;
+    color: rgb(77, 75, 75);
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.action-img img{
+    width: 420px;
+    height: 100%;
+    border-radius: 20px;
+}
+
+
+/*productive-user-section style*/
+.productive-user-section{
+  width: 1200px;
+text-align: center;
+background-color: #c1bffa;
+margin: 0px 200px 0px 200px;
+border-radius: 22px;
+padding:10px 10px 50px 10px;
+}
+.data-box{
+  display: flex;
+  justify-content:space-around;
+  align-items: center;
+  gap: 100px;
+}
+.data-count{
+  font-size:80px;
+  color: rgb(95, 95, 248);
+}
+.data-name{
+  font-size: 19px;
+  color: rgb(112, 110, 110);
+  font-weight: 500;
+}
+/*what our users say style*/
+.feedback{
+  background-color: white;
+}
+.feedback-big-title{
+  font-size: 40px;
+   margin: 80px 0px 80px 0px;
+   text-align: center;
+}
+.ratings{
+  display: flex;
+justify-content: center;
+  gap: 20px;
+ 
+}
+.rating{
+   width: 300px;
+    
+    border: 1px solid rgb(229, 224, 224);
+    border-radius: 10px;
+    
+    padding: 10px;
+    text-align: left;
+  
+}
+.feedback-title{
+  font-size: 22px;
+  color: #252432;
+}
+.feedback-subtitle{
+  font-size: 15px;
+  color: #222223;
+}
+.feedback-reviewer{
+  display: flex;
+  gap: 20px;
+}
+.feedback-img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+}
+.feedback-name{
+  font-size: 17px;
+  color: #515153;
+  font-weight: 600;
+}
+.feedback-date{
+  font-size: 16px;
+  color: gray;
+  font-weight: 300;
+}
