@@ -214,6 +214,7 @@ body {
   border-radius: 20px;
   margin-top: 20px;
 }
+
 /*contact style*/
 
 .contact-section {
@@ -270,7 +271,51 @@ textarea::placeholder {
   font-weight: 300;
 
 }
-.touch-btn{
+
+.touch-btn {
   height: 65px;
- 
+
+}
+
+/*footer style*/
+footer{
+  background: white;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 40px;
+}
+
+.footer-logo {
+  color: blue;
+  font-size: 120px;
+  font-weight: 600;
+  margin-bottom: 10px;
+
+}
+
+.footer-subtitle {
+  font-size: 20px;
+  font-weight: 400;
+  color: rgb(97, 96, 96);
+}
+
+.list-container {
+  display: flex;
+}
+
+ul li {
+  list-style: none;
+
+}
+
+ul li a {
+  text-decoration: none;
+  padding: 20px;
+  color: rgb(97, 96, 96);
+  font-size: 20px;
+  font-weight: 400;
 }
