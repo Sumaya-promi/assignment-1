@@ -1,13 +1,54 @@
-<section class="contact-section">
-            <div class="contact-title">
-                Let's Get in Touch
-            </div>
-            <form action="">
-                <label for="email" id="email">Email</label>
-                <input type="email" placeholder="example@email.com">
-                <label for="name" id="name">Name</label>
-                <input type="text" placeholder="full name">
-                <textarea name="" id="" placeholder="write your message" cols="30" rows="5">Message</textarea>
-            </form>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .footer-container{
+            display: flex;
+            flex-direction:column;
+            align-items: center;
+        }
+        .footer-logo{
+            color: blue;
+            font-size: 80px;
+            margin-bottom: 10px;
 
-        </section>
+        }
+        .footer-subtitle{
+            font-size: 20px;
+            font-weight: 400;
+            color: rgb(97, 96, 96);
+        }
+        .list-container{
+            display: flex;
+        }
+        ul li{
+            list-style: none;
+           
+        }
+        ul li a{
+            text-decoration: none;
+            padding: 20px;
+            color:  rgb(97, 96, 96);
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <footer>
+        <div class="footer-container">
+            <h1 class="footer-logo">LOGO</h1>
+            <h4 class="footer-subtitle">Ready to elevate your presence?Contact us today to discuss <br> your project and discover how we can bring your vision to life.</h4>
+            <ul class="list-container">
+               <li><a href="#">Home</a></li>
+               <li><a href="#">About</a></li>
+               <li><a href="#">How it Works</a></li>
+               <li><a href="#">Services</a></li>
+            </ul>
+        </div>
+    </footer>
+    
+</body>
+</html>
