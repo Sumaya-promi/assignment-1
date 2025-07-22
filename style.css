@@ -280,17 +280,18 @@ textarea::placeholder {
 /*footer style*/
 footer{
   background: white;
+  padding: 20px 0px 40px 0px;
 }
 
 .footer-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 40px;
+  
 }
 
 .footer-logo {
-  color: blue;
+  color: rgb(63, 63, 216);
   font-size: 120px;
   font-weight: 600;
   margin-bottom: 10px;
@@ -301,6 +302,7 @@ footer{
   font-size: 20px;
   font-weight: 400;
   color: rgb(97, 96, 96);
+  line-height: 30px;
 }
 
 .list-container {
